@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-size: 100%;
+  background-color: white;
+}
+/*bitte body sagen,dass er keine margin hat*/
+body {
+  max-width: 100%;
+  margin: 0px;
+}
+/*Bullet Points(Lnödel)müssenweg*/
+/*Links sollen schwarze Schrift haben ,nicht mehr unterstrichen und in großen Buchstaben geschrieben.Fette schriften*/
+
+a{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+/*der Knopf soll weiß sein und kein Rahmen*/
+button{
+    background-color: ;
+    border: none;
+}
+nav
+{
+    display: none;
+}
+/*Hier kommt unser Media Query*/
+@media(min-width:960px)
+{
+    button{
+        display: none;/*zeige dich nicht mehr an*/
+    }
+    nav{
+        display: block;
+    }
+}
+
